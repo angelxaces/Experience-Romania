@@ -1,0 +1,5 @@
+.idea
+.DS_Store
+.npmignore
+user_guide
+.gitignore
