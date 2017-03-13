@@ -39,6 +39,7 @@
     <link href="<?php echo base_url(); ?>/assets/hero_files/bootstrap-responsive.css" rel="stylesheet">
     <link href="<?php echo base_url(); ?>/assets/css/general.css" rel="stylesheet">
     <link href="<?php echo base_url(); ?>/assets/css/custom.css" rel="stylesheet">
+    <link href="<?php echo base_url(); ?>/assets/css/xr_styles.css" rel="stylesheet">
 
     <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
