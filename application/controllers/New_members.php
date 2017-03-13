@@ -6,6 +6,7 @@ class New_members extends CI_Controller {
 	{
  		parent::__construct();
 		@session_start();
+		$this->load->library(array('form_validation' => 'formv'));
 		//autoloaded:
 			//helpers:'url', 'captcha', 'cookie', 'email', 'form', 'path'
 			//libraries: 'javascript' => 'js', 'database' => 'db', 'sessions' => 'sess', 'form_validation' => 'formv'
