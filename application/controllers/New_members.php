@@ -6,10 +6,14 @@ class New_members extends CI_Controller {
 	{
  		parent::__construct();
 		@session_start();
+<<<<<<< HEAD:application/controllers/New_members.php
+        $this->load->library(array('form_validation' => 'formv'));
+=======
+		$this->load->library(array('form_validation' => 'formv'));
+>>>>>>> d289836512a75d49eef695143e538c13ee8dbe61:application/controllers/New_members.php
 		//autoloaded:
 			//helpers:'url', 'captcha', 'cookie', 'email', 'form', 'path'
-			//libraries: 'javascript' => 'js', 'database' => 'db', 'sessions' => 'sess', 'form_validation' => 'formv'
-			//models: 'Front_end_model' => 'fem'
+			
 	}
 	function index()
 	{
