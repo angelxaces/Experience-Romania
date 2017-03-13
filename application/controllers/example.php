@@ -5,7 +5,8 @@ class Example extends CI_Controller {
 	function __construct()
 	{
 		parent::__construct();
-			$this->load->helper('url');
+
+		$this->load->helper('url');
 
 		$this->_init();
 	}
@@ -13,6 +14,7 @@ class Example extends CI_Controller {
 	private function _init()
 	{
 		$this->output->set_template('default');
+
 		$this->load->js('/assets/js/jquery-1.9.1.min.js');
 		$this->load->js('/assets/hero_files/bootstrap-transition.js');
 		$this->load->js('/assets/hero_files/bootstrap-collapse.js');
