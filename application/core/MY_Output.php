@@ -35,14 +35,14 @@ class MY_Output extends CI_Output {
 	private $_output_data = array();
 
 	/**
-	 * Set the  template that should be contain the output <br /><em><b>Note:</b> This method set the output mode to MY_Output::OUTPUT_MODE_TEMPLATE</em>
+	 * Set the  template that should be contain the output <br /><em><b>Note:</b> This method sets the output mode to MY_Output::OUTPUT_MODE_TEMPLATE</em>
 	 *
 	 * @uses MY_Output::set_mode()
 	 * @param string $template_view
 	 * @return void
 	 */
 	function set_template($template_view){
-		$this->set_mode(self::OUTPUT_MODE_TEMPLATE);
+		$this->set_mode(self::OUTPUT_MODE_NORMAL);
 		$template_view = str_replace(".php", "", $template_view);
 		$this->_template = self::TEMPLATE_ROOT . $template_view;
 	}

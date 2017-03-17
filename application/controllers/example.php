@@ -20,7 +20,8 @@ class Example extends CI_Controller {
 
 	public function index()
 	{
-		$this->load->view('ci_simplicity/welcome');
+		$c['page_title'] = 'Devil\'s Night';
+		$this->load->view('ci_simplicity/welcome', $c);
 	}
 
 	public function example_1()

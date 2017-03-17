@@ -2,3 +2,6 @@
 .DS_Store
 .npmignore
 .git
+\.floo
+
+\.flooignore
