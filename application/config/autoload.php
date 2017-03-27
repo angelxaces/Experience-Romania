@@ -59,6 +59,7 @@ $autoload['packages'] = array();
 |	$autoload['libraries'] = array('user_agent' => 'ua');
 */
 $autoload['libraries'] = array('javascript' => 'js', 'form_validation' => 'formv');
+$autoload['libraries'] = array();
 
 /*
 | -------------------------------------------------------------------
@@ -90,6 +91,7 @@ $autoload['drivers'] = array();
 |	$autoload['helper'] = array('url', 'file');
 */
 $autoload['helper'] = array('url', 'captcha', 'cookie', 'email', 'form', 'path');
+$autoload['helper'] = array('url', 'cookie','path');
 
 /*
 | -------------------------------------------------------------------
@@ -133,3 +135,4 @@ $autoload['language'] = array();
 |	$autoload['model'] = array('first_model' => 'first');
 */
 $autoload['model'] = array('front_end_model' => 'fem');
+$autoload['model'] = array();
